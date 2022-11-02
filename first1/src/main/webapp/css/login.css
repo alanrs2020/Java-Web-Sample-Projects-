@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+}
+body{
+	font-family: Arial;
+}
+#loginBox{
+	width: 400px;
+	margin: auto;
+	padding: 20px;
+	height: 500px;
+	box-shadow: #ddd  0px 8px 24px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+}
+form{
+	padding:10px;
+}
+.input-box{
+	margin:5px;
+	padding:10px;
+}
+.right {
+  right: 0;
+  background-color: lightgreen;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.pbuttons{
+	border: none;
+	padding:10px 15px;
+	border-radius: 2px;
+	background-color: lightgreen;
+}
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}

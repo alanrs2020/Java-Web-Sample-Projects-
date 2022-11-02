@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+	margin:0;
+}
+body{
+	font-family: Arial;
+}
+.top-bar{
+	height: 60px;
+	margin:auto;
+	box-shadow: #ddd  0px 8px 24px;
+}
