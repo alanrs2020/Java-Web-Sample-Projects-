@@ -17,7 +17,7 @@
  <h1>Email: <% out.print(email); %> </h1>
  <h2> Password <% out.print(pass); %></h2>
 </div>
-<% 
+<%-- <% 
 
 java.sql.Connection con;
 java.sql.Statement s;
@@ -42,7 +42,7 @@ cnfex.printStackTrace();
 
 }
 
-%>
+%> --%>
 
 </body>
 </html>
