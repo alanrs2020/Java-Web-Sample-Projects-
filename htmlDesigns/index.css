@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    color: #fff;
+    background-color: darkslategrey;
+    padding: 10px;
+}
+#nav-bar{
+
+    height: 50px;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border:1px solid #fff;
+    border-radius: 50px;
+}
+#cart-circle{
+    border-radius: 50%;
+    width: 48px;
+    align-items: center;
+    text-align: center;
+    height: 48px;
+    background-color: #FFBF00;
+}
+ul{
+   
+    display: inline;
+}
+ul li{
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#shop-btn{
+    padding: 10px 15px;
+    background-color: #FFBF00;
+    border: none;
+    border-radius: 20px;
+}
+#shop-btn:hover{
+    background-color: #f4d77f;
+}
+#bottom-body{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#caption-text{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 7em;
+}
+ul li a:hover{
+    text-decoration: dashed;
+    color: aquamarine;
+}
+#card-one{
+    background-color: #04202e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#discover-button{
+    padding: 10px 15px;
+    border: none;
+    background-color: #FFBF00;
+    border-radius: 20px;
+}
+#card-two{
+    background:url('center.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#card-three{
+    box-shadow: 2px 0px 15px #222;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#caption-div{
+   text-align: center;
+   
+}
+.cards{
+    margin: 50px;
+    width: 400px;
+    height: 650px;
+    border: 1px #fff;
+    border-radius: 200px 200px 200px 200px;
+}
+#bottom-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 1800px) {
+    .cards{
+        width: 250px;
+        height: 400px;
+    }
+    #caption-text{
+        font-size: 5em;
+    }
+  }

@@ -45,13 +45,13 @@ public class ApplicationDao {
 		boolean isValidUser = false;
 		try {
 			
-			Connection connection = DBConnection.getConnectionToDatabase();
+			Connection connection = DBConnection.getDatabaseConnection();
 
 			// write the select query
-			String sql = "select * from users where username=? and password=?";
+			String sql = "select * from user where email=? and password=?";
 
 			// set parameters with PreparedStatement
-			java.sql.PreparedStatement statement = connection.prepareStatement(sql);
+			PreparedStatement statement = connection.prepareStatement(sql);
 			statement.setString(1, username);
 			statement.setString(2, password);
 

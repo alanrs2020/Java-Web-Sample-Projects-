@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <button class="buttons" style="background-color: red;" onclick="Green()">Red to Green</button>
+   <button class="buttons" style="background-color: red;" onclick="Green()">Red to Green</button>
+   <button class="buttons" style="background-color: red;" onclick="Green()">Red to Green</button>
+   <button class="buttons" style="background-color: red;" onclick="Green()">Red to Green</button> -->
+
+   
+    <input type="text" name="ame" id="name" />
+    <input type="submit" value="Submit" onclick="Submit()"/>
+
+   
+    <script>
+        // var x = document.getElementsByClassName("buttons");
+        
+
+        // function Green(){
+        //    for(var i=0;i<=x.length;i++){
+        //     x[i].style.backgroundColor = "Green";
+        //    }
+        // }
+
+        function Submit(){
+            var x = document.getElementById('name').value;
+            localStorage.setItem("username",x);
+            window.location = "data.html";
+        }
+
+    </script>
+</body>
+</html>
